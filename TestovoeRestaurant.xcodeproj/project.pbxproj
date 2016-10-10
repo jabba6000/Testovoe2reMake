@@ -10,6 +10,8 @@
 		168B14561DAAB0D200C57AD7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168B14551DAAB0D200C57AD7 /* CoreLocation.framework */; };
 		168B14581DAAB0D700C57AD7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168B14571DAAB0D700C57AD7 /* MapKit.framework */; };
 		16A5440D1DAC20FD00A5640E /* UserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A5440C1DAC20FD00A5640E /* UserDefaultsManager.m */; };
+		16A544121DAC2DB300A5640E /* ReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A5440F1DAC2DB300A5640E /* ReachabilityManager.m */; };
+		16A544131DAC2DB300A5640E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A544111DAC2DB300A5640E /* Reachability.m */; };
 		16D402AD1DA906120077ADC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402AC1DA906120077ADC6 /* main.m */; };
 		16D402B01DA906120077ADC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402AF1DA906120077ADC6 /* AppDelegate.m */; };
 		16D402B61DA906120077ADC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D402B41DA906120077ADC6 /* Main.storyboard */; };
@@ -32,6 +34,10 @@
 		168B14571DAAB0D700C57AD7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		16A5440B1DAC20FD00A5640E /* UserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsManager.h; sourceTree = "<group>"; };
 		16A5440C1DAC20FD00A5640E /* UserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsManager.m; sourceTree = "<group>"; };
+		16A5440E1DAC2DB300A5640E /* ReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityManager.h; sourceTree = "<group>"; };
+		16A5440F1DAC2DB300A5640E /* ReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityManager.m; sourceTree = "<group>"; };
+		16A544101DAC2DB300A5640E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		16A544111DAC2DB300A5640E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		16D402A81DA906120077ADC6 /* TestovoeRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestovoeRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D402AC1DA906120077ADC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16D402AE1DA906120077ADC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TestovoeRestaurant/AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +97,10 @@
 				16D402F61DA938D60077ADC6 /* ArrayOfCategoryImages.m */,
 				16A5440B1DAC20FD00A5640E /* UserDefaultsManager.h */,
 				16A5440C1DAC20FD00A5640E /* UserDefaultsManager.m */,
+				16A5440E1DAC2DB300A5640E /* ReachabilityManager.h */,
+				16A5440F1DAC2DB300A5640E /* ReachabilityManager.m */,
+				16A544101DAC2DB300A5640E /* Reachability.h */,
+				16A544111DAC2DB300A5640E /* Reachability.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -307,9 +317,11 @@
 				16D402AD1DA906120077ADC6 /* main.m in Sources */,
 				16D402D41DA921700077ADC6 /* DataCollector.m in Sources */,
 				16D402FA1DA96C930077ADC6 /* DefineID.m in Sources */,
+				16A544121DAC2DB300A5640E /* ReachabilityManager.m in Sources */,
 				16D402D01DA90B160077ADC6 /* DishCardViewController.m in Sources */,
 				16D402CA1DA90AC40077ADC6 /* CategoriesViewController.m in Sources */,
 				16D402C41DA909A20077ADC6 /* MenuViewController.m in Sources */,
+				16A544131DAC2DB300A5640E /* Reachability.m in Sources */,
 				16D402D71DA922270077ADC6 /* XMLParser.m in Sources */,
 				16D402F71DA938D60077ADC6 /* ArrayOfCategoryImages.m in Sources */,
 				16D402CD1DA90B050077ADC6 /* DishesViewController.m in Sources */,
