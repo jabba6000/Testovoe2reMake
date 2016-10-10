@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168B14561DAAB0D200C57AD7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168B14551DAAB0D200C57AD7 /* CoreLocation.framework */; };
+		168B14581DAAB0D700C57AD7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168B14571DAAB0D700C57AD7 /* MapKit.framework */; };
+		16A5440D1DAC20FD00A5640E /* UserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A5440C1DAC20FD00A5640E /* UserDefaultsManager.m */; };
+		16D402AD1DA906120077ADC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402AC1DA906120077ADC6 /* main.m */; };
+		16D402B01DA906120077ADC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402AF1DA906120077ADC6 /* AppDelegate.m */; };
+		16D402B61DA906120077ADC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D402B41DA906120077ADC6 /* Main.storyboard */; };
+		16D402B81DA906120077ADC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D402B71DA906120077ADC6 /* Assets.xcassets */; };
+		16D402BB1DA906120077ADC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D402B91DA906120077ADC6 /* LaunchScreen.storyboard */; };
+		16D402C41DA909A20077ADC6 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402C31DA909A20077ADC6 /* MenuViewController.m */; };
+		16D402C71DA90A3C0077ADC6 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402C61DA90A3C0077ADC6 /* ContactsViewController.m */; };
+		16D402CA1DA90AC40077ADC6 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402C91DA90AC40077ADC6 /* CategoriesViewController.m */; };
+		16D402CD1DA90B050077ADC6 /* DishesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402CC1DA90B050077ADC6 /* DishesViewController.m */; };
+		16D402D01DA90B160077ADC6 /* DishCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402CF1DA90B160077ADC6 /* DishCardViewController.m */; };
+		16D402D41DA921700077ADC6 /* DataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402D31DA921700077ADC6 /* DataCollector.m */; };
+		16D402D71DA922270077ADC6 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402D61DA922270077ADC6 /* XMLParser.m */; };
+		16D402F71DA938D60077ADC6 /* ArrayOfCategoryImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402F61DA938D60077ADC6 /* ArrayOfCategoryImages.m */; };
+		16D402FA1DA96C930077ADC6 /* DefineID.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D402F91DA96C930077ADC6 /* DefineID.m */; };
+		C618E42DD03F2BA1358A7623 /* libPods-TestovoeRestaurant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78ECC7C3EAE59DCCBFEEB8E /* libPods-TestovoeRestaurant.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		168B14551DAAB0D200C57AD7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		168B14571DAAB0D700C57AD7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		16A5440B1DAC20FD00A5640E /* UserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsManager.h; sourceTree = "<group>"; };
+		16A5440C1DAC20FD00A5640E /* UserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsManager.m; sourceTree = "<group>"; };
+		16D402A81DA906120077ADC6 /* TestovoeRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestovoeRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D402AC1DA906120077ADC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16D402AE1DA906120077ADC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TestovoeRestaurant/AppDelegate.h; sourceTree = "<group>"; };
+		16D402AF1DA906120077ADC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TestovoeRestaurant/AppDelegate.m; sourceTree = "<group>"; };
+		16D402B51DA906120077ADC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16D402B71DA906120077ADC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16D402BA1DA906120077ADC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16D402BC1DA906120077ADC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestovoeRestaurant/Info.plist; sourceTree = "<group>"; };
+		16D402C21DA909A20077ADC6 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		16D402C31DA909A20077ADC6 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		16D402C51DA90A3C0077ADC6 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		16D402C61DA90A3C0077ADC6 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		16D402C81DA90AC40077ADC6 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
+		16D402C91DA90AC40077ADC6 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
+		16D402CB1DA90B050077ADC6 /* DishesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DishesViewController.h; sourceTree = "<group>"; };
+		16D402CC1DA90B050077ADC6 /* DishesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DishesViewController.m; sourceTree = "<group>"; };
+		16D402CE1DA90B160077ADC6 /* DishCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DishCardViewController.h; sourceTree = "<group>"; };
+		16D402CF1DA90B160077ADC6 /* DishCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DishCardViewController.m; sourceTree = "<group>"; };
+		16D402D21DA921700077ADC6 /* DataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCollector.h; sourceTree = "<group>"; };
+		16D402D31DA921700077ADC6 /* DataCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCollector.m; sourceTree = "<group>"; };
+		16D402D51DA922270077ADC6 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		16D402D61DA922270077ADC6 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		16D402F51DA938D60077ADC6 /* ArrayOfCategoryImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfCategoryImages.h; sourceTree = "<group>"; };
+		16D402F61DA938D60077ADC6 /* ArrayOfCategoryImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfCategoryImages.m; sourceTree = "<group>"; };
+		16D402F81DA96C930077ADC6 /* DefineID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineID.h; sourceTree = "<group>"; };
+		16D402F91DA96C930077ADC6 /* DefineID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefineID.m; sourceTree = "<group>"; };
+		697BB0B8F5A5F1B08D028777 /* Pods-TestovoeRestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestovoeRestaurant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestovoeRestaurant/Pods-TestovoeRestaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		8E4D8839D7C915AFF3858124 /* Pods-TestovoeRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestovoeRestaurant.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestovoeRestaurant/Pods-TestovoeRestaurant.release.xcconfig"; sourceTree = "<group>"; };
+		A78ECC7C3EAE59DCCBFEEB8E /* libPods-TestovoeRestaurant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestovoeRestaurant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16D402A51DA906120077ADC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168B14581DAAB0D700C57AD7 /* MapKit.framework in Frameworks */,
+				168B14561DAAB0D200C57AD7 /* CoreLocation.framework in Frameworks */,
+				C618E42DD03F2BA1358A7623 /* libPods-TestovoeRestaurant.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168B14591DAAC67300C57AD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				16D402D11DA920320077ADC6 /* ViewControllers */,
+				16D402D21DA921700077ADC6 /* DataCollector.h */,
+				16D402D31DA921700077ADC6 /* DataCollector.m */,
+				16D402D51DA922270077ADC6 /* XMLParser.h */,
+				16D402D61DA922270077ADC6 /* XMLParser.m */,
+				16D402F81DA96C930077ADC6 /* DefineID.h */,
+				16D402F91DA96C930077ADC6 /* DefineID.m */,
+				16D402F51DA938D60077ADC6 /* ArrayOfCategoryImages.h */,
+				16D402F61DA938D60077ADC6 /* ArrayOfCategoryImages.m */,
+				16A5440B1DAC20FD00A5640E /* UserDefaultsManager.h */,
+				16A5440C1DAC20FD00A5640E /* UserDefaultsManager.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		168B145B1DAAC6D100C57AD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16D402B41DA906120077ADC6 /* Main.storyboard */,
+				16D402B71DA906120077ADC6 /* Assets.xcassets */,
+				16D402B91DA906120077ADC6 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		16D4029F1DA906120077ADC6 = {
+			isa = PBXGroup;
+			children = (
+				16D402AA1DA906120077ADC6 /* TestovoeRestaurant */,
+				16D402AE1DA906120077ADC6 /* AppDelegate.h */,
+				16D402AF1DA906120077ADC6 /* AppDelegate.m */,
+				16D402BC1DA906120077ADC6 /* Info.plist */,
+				16D402A91DA906120077ADC6 /* Products */,
+				CD078338D177FF3037F142A0 /* Pods */,
+				7753C88AACA889908F1B2082 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16D402A91DA906120077ADC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16D402A81DA906120077ADC6 /* TestovoeRestaurant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16D402AA1DA906120077ADC6 /* TestovoeRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				168B145B1DAAC6D100C57AD7 /* Resources */,
+				168B14591DAAC67300C57AD7 /* Classes */,
+				16D402AB1DA906120077ADC6 /* Supporting Files */,
+			);
+			path = TestovoeRestaurant;
+			sourceTree = "<group>";
+		};
+		16D402AB1DA906120077ADC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16D402AC1DA906120077ADC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16D402D11DA920320077ADC6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				16D402C21DA909A20077ADC6 /* MenuViewController.h */,
+				16D402C31DA909A20077ADC6 /* MenuViewController.m */,
+				16D402C51DA90A3C0077ADC6 /* ContactsViewController.h */,
+				16D402C61DA90A3C0077ADC6 /* ContactsViewController.m */,
+				16D402C81DA90AC40077ADC6 /* CategoriesViewController.h */,
+				16D402C91DA90AC40077ADC6 /* CategoriesViewController.m */,
+				16D402CB1DA90B050077ADC6 /* DishesViewController.h */,
+				16D402CC1DA90B050077ADC6 /* DishesViewController.m */,
+				16D402CE1DA90B160077ADC6 /* DishCardViewController.h */,
+				16D402CF1DA90B160077ADC6 /* DishCardViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7753C88AACA889908F1B2082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				168B14571DAAB0D700C57AD7 /* MapKit.framework */,
+				168B14551DAAB0D200C57AD7 /* CoreLocation.framework */,
+				A78ECC7C3EAE59DCCBFEEB8E /* libPods-TestovoeRestaurant.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD078338D177FF3037F142A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				697BB0B8F5A5F1B08D028777 /* Pods-TestovoeRestaurant.debug.xcconfig */,
+				8E4D8839D7C915AFF3858124 /* Pods-TestovoeRestaurant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16D402A71DA906120077ADC6 /* TestovoeRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D402BF1DA906120077ADC6 /* Build configuration list for PBXNativeTarget "TestovoeRestaurant" */;
+			buildPhases = (
+				2EC260DBE56036ACFEBF24AC /* [CP] Check Pods Manifest.lock */,
+				16D402A41DA906120077ADC6 /* Sources */,
+				16D402A51DA906120077ADC6 /* Frameworks */,
+				16D402A61DA906120077ADC6 /* Resources */,
+				BD323E5AA136F70A06F069E2 /* [CP] Embed Pods Frameworks */,
+				78EC36410BFCCE732215502A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestovoeRestaurant;
+			productName = TestovoeRestaurant;
+			productReference = 16D402A81DA906120077ADC6 /* TestovoeRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16D402A01DA906120077ADC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrei Karpenia";
+				TargetAttributes = {
+					16D402A71DA906120077ADC6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 16D402A31DA906120077ADC6 /* Build configuration list for PBXProject "TestovoeRestaurant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16D4029F1DA906120077ADC6;
+			productRefGroup = 16D402A91DA906120077ADC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16D402A71DA906120077ADC6 /* TestovoeRestaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16D402A61DA906120077ADC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D402BB1DA906120077ADC6 /* LaunchScreen.storyboard in Resources */,
+				16D402B81DA906120077ADC6 /* Assets.xcassets in Resources */,
+				16D402B61DA906120077ADC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EC260DBE56036ACFEBF24AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78EC36410BFCCE732215502A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestovoeRestaurant/Pods-TestovoeRestaurant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD323E5AA136F70A06F069E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestovoeRestaurant/Pods-TestovoeRestaurant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16D402A41DA906120077ADC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D402B01DA906120077ADC6 /* AppDelegate.m in Sources */,
+				16D402C71DA90A3C0077ADC6 /* ContactsViewController.m in Sources */,
+				16A5440D1DAC20FD00A5640E /* UserDefaultsManager.m in Sources */,
+				16D402AD1DA906120077ADC6 /* main.m in Sources */,
+				16D402D41DA921700077ADC6 /* DataCollector.m in Sources */,
+				16D402FA1DA96C930077ADC6 /* DefineID.m in Sources */,
+				16D402D01DA90B160077ADC6 /* DishCardViewController.m in Sources */,
+				16D402CA1DA90AC40077ADC6 /* CategoriesViewController.m in Sources */,
+				16D402C41DA909A20077ADC6 /* MenuViewController.m in Sources */,
+				16D402D71DA922270077ADC6 /* XMLParser.m in Sources */,
+				16D402F71DA938D60077ADC6 /* ArrayOfCategoryImages.m in Sources */,
+				16D402CD1DA90B050077ADC6 /* DishesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16D402B41DA906120077ADC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D402B51DA906120077ADC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16D402B91DA906120077ADC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16D402BA1DA906120077ADC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16D402BD1DA906120077ADC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16D402BE1DA906120077ADC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16D402C01DA906120077ADC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 697BB0B8F5A5F1B08D028777 /* Pods-TestovoeRestaurant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestovoeRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AK.TestovoeRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16D402C11DA906120077ADC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4D8839D7C915AFF3858124 /* Pods-TestovoeRestaurant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestovoeRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AK.TestovoeRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D402A31DA906120077ADC6 /* Build configuration list for PBXProject "TestovoeRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D402BD1DA906120077ADC6 /* Debug */,
+				16D402BE1DA906120077ADC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16D402BF1DA906120077ADC6 /* Build configuration list for PBXNativeTarget "TestovoeRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D402C01DA906120077ADC6 /* Debug */,
+				16D402C11DA906120077ADC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16D402A01DA906120077ADC6 /* Project object */;
+}

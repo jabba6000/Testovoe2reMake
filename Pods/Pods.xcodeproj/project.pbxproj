@@ -7,60 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0D0D567EF7D289A618E281B3D2A22A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176EB6424F2DB28364CAC3970473AE0F /* SWRevealViewController.m */; };
-		67BA30E9B43C5D09EFE7210729503A6E /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C627A50DD7EE3D55D81A86BEEDB78237 /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78FD4FAC6AA5849A6C6477225169E71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
-		BB3471B642DF1D415C295FECCB9F850B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C4A76B6AFC1ABC19A242A503DEE13E /* CoreGraphics.framework */; };
-		C02D552F0AD49252EA3DA2B8A8DFB176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
-		C107B38060F031F61FA7A5402DAEAC78 /* Pods-TestovoeRest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A92147DC9BB3AA1C73C9D4F413A304F3 /* Pods-TestovoeRest-dummy.m */; };
-		CAB363DC6BCBD1970796F849AB24691E /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A10499EC7CB9348742E799D3FC78A48 /* SWRevealViewController-dummy.m */; };
+		1AC786D2F786E577021D0F61F36864A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C4A76B6AFC1ABC19A242A503DEE13E /* CoreGraphics.framework */; };
+		54FFCEBA4469FA7660253705572272A6 /* Pods-TestovoeRestaurant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7649FFD4EA8223CABAFB65BE17017EFC /* Pods-TestovoeRestaurant-dummy.m */; };
+		852BEF3F22626137B98BCE8931FAD951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
+		9B2A47A66D425396BA10578AFC050899 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C627A50DD7EE3D55D81A86BEEDB78237 /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7813628E9579C05CD226D129862ACC4 /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A10499EC7CB9348742E799D3FC78A48 /* SWRevealViewController-dummy.m */; };
+		B2394095E46F5DB3215C010671C8FB79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */; };
+		B3A531CF130C72CCEE578DDFFDFA28D0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176EB6424F2DB28364CAC3970473AE0F /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5DBFBD0A5634B02EC55B6748ABF4993A /* PBXContainerItemProxy */ = {
+		C11FA71AF93C80470BCD57DED8B44F84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CB8723F76497B6DB459D4A76F3336B4B;
+			remoteGlobalIDString = 8E6BD299B1175BB070710DCCAF751156;
 			remoteInfo = SWRevealViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047D01D629E8CF9620843D978A8E317A /* libPods-TestovoeRest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestovoeRest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC1F1998668C3B38A2D60F70AC442F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0FD789986190AF063694756045A91CC9 /* Pods-TestovoeRest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestovoeRest.debug.xcconfig"; sourceTree = "<group>"; };
+		15DAFE61BFEA418569B69CC0E5520DB5 /* Pods-TestovoeRestaurant-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestovoeRestaurant-acknowledgements.plist"; sourceTree = "<group>"; };
 		176EB6424F2DB28364CAC3970473AE0F /* SWRevealViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
-		2664DD5CD88031C913A55B1C945CFC8A /* Pods-TestovoeRest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestovoeRest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		33D25FB531104B73F19484602E317E4A /* SWRevealViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-prefix.pch"; sourceTree = "<group>"; };
-		609DA26C1666A0840768D22B47AA9D2A /* Pods-TestovoeRest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestovoeRest-resources.sh"; sourceTree = "<group>"; };
+		7649FFD4EA8223CABAFB65BE17017EFC /* Pods-TestovoeRestaurant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestovoeRestaurant-dummy.m"; sourceTree = "<group>"; };
 		7A10499EC7CB9348742E799D3FC78A48 /* SWRevealViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController-dummy.m"; sourceTree = "<group>"; };
+		82F8390C7AB29422D5A2BB0D7ACCB629 /* libPods-TestovoeRestaurant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestovoeRestaurant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1C80E25839CF2F879AB9E315EDE894 /* libSWRevealViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSWRevealViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9973A0A2DF6A9B8313CB429973C1E6E7 /* Pods-TestovoeRest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestovoeRest-frameworks.sh"; sourceTree = "<group>"; };
-		A4F4149422A7C092CAEE4497C7F128AA /* Pods-TestovoeRest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestovoeRest.release.xcconfig"; sourceTree = "<group>"; };
+		9BC8FD5DB15DF20EFEC3DF2576BA1816 /* Pods-TestovoeRestaurant-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestovoeRestaurant-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A659EF3D6282FDBDF41130FBFD22977B /* SWRevealViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.xcconfig; sourceTree = "<group>"; };
-		A92147DC9BB3AA1C73C9D4F413A304F3 /* Pods-TestovoeRest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestovoeRest-dummy.m"; sourceTree = "<group>"; };
 		B2C4A76B6AFC1ABC19A242A503DEE13E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BE7B78E803A234935EE5EAE6186AC3A0 /* Pods-TestovoeRestaurant-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestovoeRestaurant-resources.sh"; sourceTree = "<group>"; };
 		C627A50DD7EE3D55D81A86BEEDB78237 /* SWRevealViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
-		C9989EFE9D9241AD0FC484E334877FCC /* Pods-TestovoeRest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestovoeRest-acknowledgements.plist"; sourceTree = "<group>"; };
-		FEDBB9E61A6437D6F2E97D30688DD745 /* libSWRevealViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSWRevealViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A6F50DC894F48E53E2CF9424DAF42C /* Pods-TestovoeRestaurant-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestovoeRestaurant-frameworks.sh"; sourceTree = "<group>"; };
+		D1E789380F830EBEBE75A518E4E87BA0 /* Pods-TestovoeRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestovoeRestaurant.release.xcconfig"; sourceTree = "<group>"; };
+		F83B874B34942E61CE869A88DEF5EEF7 /* Pods-TestovoeRestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestovoeRestaurant.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0DF9684E35B47526BFDA045FA1DC049A /* Frameworks */ = {
+		422BD3ECECEE45EAB1628BC6C0D79BA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB3471B642DF1D415C295FECCB9F850B /* CoreGraphics.framework in Frameworks */,
-				C02D552F0AD49252EA3DA2B8A8DFB176 /* Foundation.framework in Frameworks */,
+				1AC786D2F786E577021D0F61F36864A9 /* CoreGraphics.framework in Frameworks */,
+				B2394095E46F5DB3215C010671C8FB79 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2CB2934714B1236FC469B9018B51B077 /* Frameworks */ = {
+		6C1186C781380F99C61BCB7C7CE06F6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78FD4FAC6AA5849A6C6477225169E71E /* Foundation.framework in Frameworks */,
+				852BEF3F22626137B98BCE8931FAD951 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,34 +76,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		090A371B42DEC27BF4BDFA48F45FBEC4 /* Products */ = {
+		26B6ED0A34A047E488F72172B322CC7A /* Pods-TestovoeRestaurant */ = {
 			isa = PBXGroup;
 			children = (
-				047D01D629E8CF9620843D978A8E317A /* libPods-TestovoeRest.a */,
-				FEDBB9E61A6437D6F2E97D30688DD745 /* libSWRevealViewController.a */,
+				9BC8FD5DB15DF20EFEC3DF2576BA1816 /* Pods-TestovoeRestaurant-acknowledgements.markdown */,
+				15DAFE61BFEA418569B69CC0E5520DB5 /* Pods-TestovoeRestaurant-acknowledgements.plist */,
+				7649FFD4EA8223CABAFB65BE17017EFC /* Pods-TestovoeRestaurant-dummy.m */,
+				D0A6F50DC894F48E53E2CF9424DAF42C /* Pods-TestovoeRestaurant-frameworks.sh */,
+				BE7B78E803A234935EE5EAE6186AC3A0 /* Pods-TestovoeRestaurant-resources.sh */,
+				F83B874B34942E61CE869A88DEF5EEF7 /* Pods-TestovoeRestaurant.debug.xcconfig */,
+				D1E789380F830EBEBE75A518E4E87BA0 /* Pods-TestovoeRestaurant.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-TestovoeRestaurant";
+			path = "Target Support Files/Pods-TestovoeRestaurant";
 			sourceTree = "<group>";
 		};
-		126466BF4910F7B2619AA1520D4D8389 /* Pods-TestovoeRest */ = {
+		26D1DBEC3AD9C7DBE51D53424A1E3F6E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2664DD5CD88031C913A55B1C945CFC8A /* Pods-TestovoeRest-acknowledgements.markdown */,
-				C9989EFE9D9241AD0FC484E334877FCC /* Pods-TestovoeRest-acknowledgements.plist */,
-				A92147DC9BB3AA1C73C9D4F413A304F3 /* Pods-TestovoeRest-dummy.m */,
-				9973A0A2DF6A9B8313CB429973C1E6E7 /* Pods-TestovoeRest-frameworks.sh */,
-				609DA26C1666A0840768D22B47AA9D2A /* Pods-TestovoeRest-resources.sh */,
-				0FD789986190AF063694756045A91CC9 /* Pods-TestovoeRest.debug.xcconfig */,
-				A4F4149422A7C092CAEE4497C7F128AA /* Pods-TestovoeRest.release.xcconfig */,
-			);
-			name = "Pods-TestovoeRest";
-			path = "Target Support Files/Pods-TestovoeRest";
-			sourceTree = "<group>";
-		};
-		26E337069009B9E12E1D1C9F02A001FD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				126466BF4910F7B2619AA1520D4D8389 /* Pods-TestovoeRest */,
+				26B6ED0A34A047E488F72172B322CC7A /* Pods-TestovoeRestaurant */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -126,14 +117,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		468B3ECFCD1869DD2A18A74C41792305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82F8390C7AB29422D5A2BB0D7ACCB629 /* libPods-TestovoeRestaurant.a */,
+				8D1C80E25839CF2F879AB9E315EDE894 /* libSWRevealViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				EF919DCAD7230EFA1F7FA3DC5EA3DDED /* Pods */,
-				090A371B42DEC27BF4BDFA48F45FBEC4 /* Products */,
-				26E337069009B9E12E1D1C9F02A001FD /* Targets Support Files */,
+				468B3ECFCD1869DD2A18A74C41792305 /* Products */,
+				26D1DBEC3AD9C7DBE51D53424A1E3F6E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,41 +159,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4F53977E65436446DC615530A13976E4 /* Headers */ = {
+		8E5CD488FA8C1DCA45828BE56B2FFFA4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67BA30E9B43C5D09EFE7210729503A6E /* SWRevealViewController.h in Headers */,
+				9B2A47A66D425396BA10578AFC050899 /* SWRevealViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4B67A544DB4E6AF248B75B2A0605D19E /* Pods-TestovoeRest */ = {
+		8E6BD299B1175BB070710DCCAF751156 /* SWRevealViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC7D8B5D790DB38D04AAA20A185CB6FC /* Build configuration list for PBXNativeTarget "Pods-TestovoeRest" */;
+			buildConfigurationList = DC86DB9584095A171D5E07EB3A384CB9 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
 			buildPhases = (
-				63F9E1013291EF97700C3A072E05CB67 /* Sources */,
-				2CB2934714B1236FC469B9018B51B077 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6BACCA3B8612671AE6D8195F7E8F8033 /* PBXTargetDependency */,
-			);
-			name = "Pods-TestovoeRest";
-			productName = "Pods-TestovoeRest";
-			productReference = 047D01D629E8CF9620843D978A8E317A /* libPods-TestovoeRest.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CB8723F76497B6DB459D4A76F3336B4B /* SWRevealViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F3DB4B65DD8CBC8291D9AB416014AA6 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
-			buildPhases = (
-				CD1C797BB2811C10FC981E4CA5C774C7 /* Sources */,
-				0DF9684E35B47526BFDA045FA1DC049A /* Frameworks */,
-				4F53977E65436446DC615530A13976E4 /* Headers */,
+				D8495FC4DFDDCFE128FDC9F647973C81 /* Sources */,
+				422BD3ECECEE45EAB1628BC6C0D79BA2 /* Frameworks */,
+				8E5CD488FA8C1DCA45828BE56B2FFFA4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -201,7 +184,24 @@
 			);
 			name = SWRevealViewController;
 			productName = SWRevealViewController;
-			productReference = FEDBB9E61A6437D6F2E97D30688DD745 /* libSWRevealViewController.a */;
+			productReference = 8D1C80E25839CF2F879AB9E315EDE894 /* libSWRevealViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F974C37A77DF9E33248B20FFBBF72EA8 /* Pods-TestovoeRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE548D348F8073C4944E7E456DD9134 /* Build configuration list for PBXNativeTarget "Pods-TestovoeRestaurant" */;
+			buildPhases = (
+				82C1615DD88BD04768F9C417383A0C12 /* Sources */,
+				6C1186C781380F99C61BCB7C7CE06F6C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8C1101C2D1677ED5CFEA44D56AC00D /* PBXTargetDependency */,
+			);
+			name = "Pods-TestovoeRestaurant";
+			productName = "Pods-TestovoeRestaurant";
+			productReference = 82F8390C7AB29422D5A2BB0D7ACCB629 /* libPods-TestovoeRestaurant.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -221,62 +221,62 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 090A371B42DEC27BF4BDFA48F45FBEC4 /* Products */;
+			productRefGroup = 468B3ECFCD1869DD2A18A74C41792305 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B67A544DB4E6AF248B75B2A0605D19E /* Pods-TestovoeRest */,
-				CB8723F76497B6DB459D4A76F3336B4B /* SWRevealViewController */,
+				F974C37A77DF9E33248B20FFBBF72EA8 /* Pods-TestovoeRestaurant */,
+				8E6BD299B1175BB070710DCCAF751156 /* SWRevealViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63F9E1013291EF97700C3A072E05CB67 /* Sources */ = {
+		82C1615DD88BD04768F9C417383A0C12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C107B38060F031F61FA7A5402DAEAC78 /* Pods-TestovoeRest-dummy.m in Sources */,
+				54FFCEBA4469FA7660253705572272A6 /* Pods-TestovoeRestaurant-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD1C797BB2811C10FC981E4CA5C774C7 /* Sources */ = {
+		D8495FC4DFDDCFE128FDC9F647973C81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB363DC6BCBD1970796F849AB24691E /* SWRevealViewController-dummy.m in Sources */,
-				3F0D0D567EF7D289A618E281B3D2A22A /* SWRevealViewController.m in Sources */,
+				A7813628E9579C05CD226D129862ACC4 /* SWRevealViewController-dummy.m in Sources */,
+				B3A531CF130C72CCEE578DDFFDFA28D0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6BACCA3B8612671AE6D8195F7E8F8033 /* PBXTargetDependency */ = {
+		EF8C1101C2D1677ED5CFEA44D56AC00D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SWRevealViewController;
-			target = CB8723F76497B6DB459D4A76F3336B4B /* SWRevealViewController */;
-			targetProxy = 5DBFBD0A5634B02EC55B6748ABF4993A /* PBXContainerItemProxy */;
+			target = 8E6BD299B1175BB070710DCCAF751156 /* SWRevealViewController */;
+			targetProxy = C11FA71AF93C80470BCD57DED8B44F84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D66BFDB85D116862C32931169FF72CE /* Release */ = {
+		039B8AC7638E5828103830361E0D08E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A659EF3D6282FDBDF41130FBFD22977B /* SWRevealViewController.xcconfig */;
+			baseConfigurationReference = D1E789380F830EBEBE75A518E4E87BA0 /* Pods-TestovoeRestaurant.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -324,7 +324,28 @@
 			};
 			name = Debug;
 		};
-		928A71F45EBA9A0AC343DC9DB88CEAC5 /* Debug */ = {
+		94D97AE01D1FC2575DB082A30B99A7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83B874B34942E61CE869A88DEF5EEF7 /* Pods-TestovoeRestaurant.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AC58A5E1702855F44798B835D1963C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A659EF3D6282FDBDF41130FBFD22977B /* SWRevealViewController.xcconfig */;
 			buildSettings = {
@@ -345,43 +366,22 @@
 			};
 			name = Debug;
 		};
-		C6951312D504D767BD71215B2B748F38 /* Debug */ = {
+		C330A79ECA4F803340C0E6E874BDA558 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FD789986190AF063694756045A91CC9 /* Pods-TestovoeRest.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		E97DFD6228E9D5982895AA94AD906DCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4F4149422A7C092CAEE4497C7F128AA /* Pods-TestovoeRest.release.xcconfig */;
+			baseConfigurationReference = A659EF3D6282FDBDF41130FBFD22977B /* SWRevealViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -428,15 +428,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F3DB4B65DD8CBC8291D9AB416014AA6 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				928A71F45EBA9A0AC343DC9DB88CEAC5 /* Debug */,
-				1D66BFDB85D116862C32931169FF72CE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -446,11 +437,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC7D8B5D790DB38D04AAA20A185CB6FC /* Build configuration list for PBXNativeTarget "Pods-TestovoeRest" */ = {
+		8EE548D348F8073C4944E7E456DD9134 /* Build configuration list for PBXNativeTarget "Pods-TestovoeRestaurant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6951312D504D767BD71215B2B748F38 /* Debug */,
-				E97DFD6228E9D5982895AA94AD906DCE /* Release */,
+				94D97AE01D1FC2575DB082A30B99A7E2 /* Debug */,
+				039B8AC7638E5828103830361E0D08E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC86DB9584095A171D5E07EB3A384CB9 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC58A5E1702855F44798B835D1963C5D /* Debug */,
+				C330A79ECA4F803340C0E6E874BDA558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
