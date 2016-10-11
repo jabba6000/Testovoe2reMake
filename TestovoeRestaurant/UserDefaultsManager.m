@@ -22,29 +22,13 @@
         [DataCollector sharedInstance].allDishesArray = [defaults objectForKey:@"AllDishesDataArray"];
         [DataCollector sharedInstance].categoryNamesArray = [defaults objectForKey:@"NamesOfCategoriesArray"];
         
-        NSMutableDictionary *dictWithImages  = [NSMutableDictionary new];
-        NSDictionary *extractedImageData = [NSDictionary dictionaryWithDictionary:[defaults objectForKey:@"ImagesOfDishesDictionary"]];
-        NSEnumerator *enumerator = [extractedImageData keyEnumerator];
-        id key;
-        // extra parens to suppress warning about using = instead of ==
-        while((key = [enumerator nextObject])) {
-            if ([[extractedImageData objectForKey:key] isEqual:@"none"]){
-                [dictWithImages setObject:[extractedImageData objectForKey:key] forKey:key];
-                NSLog(@"key=%@ value=%@", key, [extractedImageData objectForKey:key]);
-            }
-            else{
-                UIImage *image = [UIImage imageWithData:[extractedImageData objectForKey:key]];
-                [dictWithImages setObject:image forKey:key];
-                NSLog(@"cinverted Image added to dictionary");
-            }
-        }
-        [DataCollector sharedInstance].dishesImagesDictionary = dictWithImages;
+        [DataCollector sharedInstance].dishesImagesDictionary = [self convertNSDataToUIImageDictionary];
         
         ArrayOfCategoryImages *imageArray = [ArrayOfCategoryImages new];
         [imageArray createArrayOfImages];
-        if (![reachabilityManager checkConnection]) {
-            NSLog(@"Conncetion is not avilable");
-        }
+//        if (![reachabilityManager checkConnection]) {
+//            NSLog(@"Conncetion is not avilable");
+//        }
     }
     else {
         if ([reachabilityManager checkConnection]) {
@@ -54,23 +38,66 @@
             [parser performParsing];
             ArrayOfCategoryImages *imageArray = [ArrayOfCategoryImages new];
             [imageArray createArrayOfImages];
-            NSLog(@"Now parsed data is inside Data Collcetor");
+            NSLog(@"Now parsed data is inside Data Collector");
             
             NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
             [defaults setObject:[DataCollector sharedInstance].categoryNamesArray forKey:@"NamesOfCategoriesArray"];
             //We don't save category images to array, because it rather easy to get this data from project
             [defaults setObject:[DataCollector sharedInstance].allDishesArray forKey:@"AllDishesDataArray"];
-            if ([DataCollector sharedInstance].dishesImagesDictionary == nil){
-                [DataCollector sharedInstance].dishesImagesDictionary = [NSMutableDictionary new];
-                NSLog(@"Now have empty dishes aimges arary in Data Collector");
-            }
             [defaults setObject:[DataCollector sharedInstance].dishesImagesDictionary forKey:@"ImagesOfDishesDictionary"];
             NSLog(@"Now parsed data is inside NSUserDefaults");
         }
         else {
-            NSLog(@"Conncetion is not avilable");
+            NSLog(@"Conncetion is not available");
+            if ([DataCollector sharedInstance].allDishesArray == nil)
+            {
+                NSLog(@"No data and no Internet connection");
+            }
+            else{
+                [DataCollector sharedInstance].allDishesArray = [defaults objectForKey:@"AllDishesDataArray"];
+                [DataCollector sharedInstance].categoryNamesArray = [defaults objectForKey:@"NamesOfCategoriesArray"];
+                
+                [DataCollector sharedInstance].dishesImagesDictionary = [self convertNSDataToUIImageDictionary];
+                
+                ArrayOfCategoryImages *imageArray = [ArrayOfCategoryImages new];
+                [imageArray createArrayOfImages];
+            }
         }
     }
 }
+
+- (NSMutableDictionary *)convertNSDataToUIImageDictionary {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSMutableDictionary *dictWithImages  = [NSMutableDictionary new];
+    NSDictionary *extractedImageData = [NSDictionary dictionaryWithDictionary:[defaults objectForKey:@"ImagesOfDishesDictionary"]];
+    NSEnumerator *enumerator = [extractedImageData keyEnumerator];
+    id key;
+    while((key = [enumerator nextObject])) {
+        if ([[extractedImageData objectForKey:key] isEqual:@"none"]){
+            [dictWithImages setObject:[extractedImageData objectForKey:key] forKey:key];
+            NSLog(@"%@", [dictWithImages objectForKey:key]);
+        }
+        else{
+            UIImage *image = [UIImage imageWithData:[extractedImageData objectForKey:key]];
+            [dictWithImages setObject:image forKey:key];
+            NSLog(@"converted Image added to dictionary");
+        }
+    }
+    return dictWithImages;
+}
+
+//Because it  is impossible to store UIImage inside USer Defaults we have to convert it to NSData
+- (void)updateUserDefaultsWithImage: (UIImage *)img forName: (NSString*)name{
+    NSMutableDictionary *temporaryDictionaryWithImages = [NSMutableDictionary new];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    temporaryDictionaryWithImages = [[defaults objectForKey:@"ImagesOfDishesDictionary"] mutableCopy];
+    [defaults removeObjectForKey:@"ImagesOfDishesDictionary"];
+    [temporaryDictionaryWithImages removeObjectForKey:@"dishImage"];
+    NSData *imageData = UIImagePNGRepresentation(img);
+    [temporaryDictionaryWithImages setObject:imageData forKey:name];
+    [defaults setObject:temporaryDictionaryWithImages forKey:@"ImagesOfDishesDictionary"];
+    NSLog(@"Downloaded data was added to User Defaults");
+}
+
 
 @end

@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface UserDefaultsManager : NSObject
 
 - (void)checkIfRequiredDataExists;
+- (void)updateUserDefaultsWithImage: (UIImage *)img forName: (NSString*)name;
 
 @end

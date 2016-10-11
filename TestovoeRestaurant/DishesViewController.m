@@ -9,6 +9,7 @@
 #import "DishesViewController.h"
 #import "DataCollector.h"
 #import "DishCardViewController.h"
+#import "UserDefaultsManager.h"
 
 @interface DishesViewController() <UITableViewDataSource, UITableViewDelegate>
 
@@ -37,9 +38,11 @@
     }
     cell.tag = indexPath.row;
     UIImage *naImage = [UIImage imageNamed:@"na.jpg"];
+    NSLog(@"NA");
     NSString *currentDishName = [[_categoryDishes objectAtIndex:indexPath.row] objectForKey:@"name"];
     
     if (  [[[DataCollector sharedInstance].dishesImagesDictionary objectForKey:currentDishName] isEqual:@"none"]){
+        NSLog(@"NA 2");
         cell.imageView.image = naImage;
         dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0ul);
         dispatch_async(queue, ^(void) {
@@ -54,19 +57,10 @@
                         [[DataCollector sharedInstance].dishesImagesDictionary removeObjectForKey:currentDishName];
                         [[DataCollector sharedInstance].dishesImagesDictionary setObject:image forKey:currentDishName];
                         
-                        NSMutableDictionary *temporaryDictionaryWithImages = [NSMutableDictionary new];
-                        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-                        temporaryDictionaryWithImages = [[defaults objectForKey:@"ImagesOfDishesDictionary"] mutableCopy];
-                        [defaults removeObjectForKey:@"ImagesOfDishesDictionary"];
-                        [temporaryDictionaryWithImages removeObjectForKey:@"dishImage"];
-                        NSData *imageData = UIImagePNGRepresentation(image);
-                        [temporaryDictionaryWithImages setObject:imageData forKey:currentDishName];
-                        [defaults setObject:temporaryDictionaryWithImages forKey:@"ImagesOfDishesDictionary"];
-                        NSLog(@"Data was added to User Defaults");
-//
-                        
-                        
-                        NSLog(@"Img downloaded");
+                        //We add this value to userDefaults
+                        UserDefaultsManager *userDefaultsManager = [UserDefaultsManager new];
+                        [userDefaultsManager updateUserDefaultsWithImage:image forName:currentDishName];
+                
                         cell.imageView.image = image;
                         [cell setNeedsLayout];
                     }

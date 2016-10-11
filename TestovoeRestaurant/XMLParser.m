@@ -42,6 +42,8 @@
 - (void)parserDidStartDocument:(NSXMLParser *)parser {
     // Initialize the dictionary for images and array for offers.
     self.allOffersDataArray = [[NSMutableArray alloc] init];
+    [DataCollector sharedInstance].dishesImagesDictionary = [NSMutableDictionary new];
+    NSLog(@"Now have empty dishes aimges arary in Data Collector");
 }
 
 - (void)parserDidEndDocument:(NSXMLParser *)parser {
