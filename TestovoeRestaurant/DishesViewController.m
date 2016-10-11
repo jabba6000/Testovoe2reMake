@@ -51,8 +51,21 @@
                 //When image will "arrive" UI will be updated
                 dispatch_async(dispatch_get_main_queue(), ^{
                     if (cell.tag == indexPath.row) {
-                        [[DataCollector sharedInstance].dishesImagesDictionary removeObjectForKey:@"dishImage"];
+                        [[DataCollector sharedInstance].dishesImagesDictionary removeObjectForKey:currentDishName];
                         [[DataCollector sharedInstance].dishesImagesDictionary setObject:image forKey:currentDishName];
+                        
+                        NSMutableDictionary *temporaryDictionaryWithImages = [NSMutableDictionary new];
+                        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+                        temporaryDictionaryWithImages = [[defaults objectForKey:@"ImagesOfDishesDictionary"] mutableCopy];
+                        [defaults removeObjectForKey:@"ImagesOfDishesDictionary"];
+                        [temporaryDictionaryWithImages removeObjectForKey:@"dishImage"];
+                        NSData *imageData = UIImagePNGRepresentation(image);
+                        [temporaryDictionaryWithImages setObject:imageData forKey:currentDishName];
+                        [defaults setObject:temporaryDictionaryWithImages forKey:@"ImagesOfDishesDictionary"];
+                        NSLog(@"Data was added to User Defaults");
+//
+                        
+                        
                         NSLog(@"Img downloaded");
                         cell.imageView.image = image;
                         [cell setNeedsLayout];

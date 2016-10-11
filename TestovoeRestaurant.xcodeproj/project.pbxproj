@@ -99,8 +99,7 @@
 				16A5440C1DAC20FD00A5640E /* UserDefaultsManager.m */,
 				16A5440E1DAC2DB300A5640E /* ReachabilityManager.h */,
 				16A5440F1DAC2DB300A5640E /* ReachabilityManager.m */,
-				16A544101DAC2DB300A5640E /* Reachability.h */,
-				16A544111DAC2DB300A5640E /* Reachability.m */,
+				16A544141DAC37BF00A5640E /* ExternalLibs */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -113,6 +112,15 @@
 				16D402B91DA906120077ADC6 /* LaunchScreen.storyboard */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		16A544141DAC37BF00A5640E /* ExternalLibs */ = {
+			isa = PBXGroup;
+			children = (
+				16A544101DAC2DB300A5640E /* Reachability.h */,
+				16A544111DAC2DB300A5640E /* Reachability.m */,
+			);
+			name = ExternalLibs;
 			sourceTree = "<group>";
 		};
 		16D4029F1DA906120077ADC6 = {
